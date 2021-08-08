@@ -31,6 +31,6 @@ def Api(age):
     x = Pridiction_algo(age)
     return x[0]
 #app.run()
-# app.run(host="0.0.0.0", port=int("5555"), debug=True)
+# app.run(host="0.0.0.0", port=int("80"), debug=True)
 if __name__ == '__main__':
      app.run(port='5002',debug=True)
